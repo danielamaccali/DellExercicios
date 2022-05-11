@@ -1,0 +1,15 @@
+C:\Users\daniela_maccali\Documents\AULAS\C#\Laboratorio1\bin\Debug\net6.0\Laboratorio1.exe
+C:\Users\daniela_maccali\Documents\AULAS\C#\Laboratorio1\bin\Debug\net6.0\Laboratorio1.deps.json
+C:\Users\daniela_maccali\Documents\AULAS\C#\Laboratorio1\bin\Debug\net6.0\Laboratorio1.runtimeconfig.json
+C:\Users\daniela_maccali\Documents\AULAS\C#\Laboratorio1\bin\Debug\net6.0\Laboratorio1.dll
+C:\Users\daniela_maccali\Documents\AULAS\C#\Laboratorio1\bin\Debug\net6.0\Laboratorio1.pdb
+C:\Users\daniela_maccali\Documents\AULAS\C#\Laboratorio1\obj\Debug\net6.0\Laboratorio1.csproj.AssemblyReference.cache
+C:\Users\daniela_maccali\Documents\AULAS\C#\Laboratorio1\obj\Debug\net6.0\Laboratorio1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\daniela_maccali\Documents\AULAS\C#\Laboratorio1\obj\Debug\net6.0\Laboratorio1.AssemblyInfoInputs.cache
+C:\Users\daniela_maccali\Documents\AULAS\C#\Laboratorio1\obj\Debug\net6.0\Laboratorio1.AssemblyInfo.cs
+C:\Users\daniela_maccali\Documents\AULAS\C#\Laboratorio1\obj\Debug\net6.0\Laboratorio1.csproj.CoreCompileInputs.cache
+C:\Users\daniela_maccali\Documents\AULAS\C#\Laboratorio1\obj\Debug\net6.0\Laboratorio1.dll
+C:\Users\daniela_maccali\Documents\AULAS\C#\Laboratorio1\obj\Debug\net6.0\refint\Laboratorio1.dll
+C:\Users\daniela_maccali\Documents\AULAS\C#\Laboratorio1\obj\Debug\net6.0\Laboratorio1.pdb
+C:\Users\daniela_maccali\Documents\AULAS\C#\Laboratorio1\obj\Debug\net6.0\Laboratorio1.genruntimeconfig.cache
+C:\Users\daniela_maccali\Documents\AULAS\C#\Laboratorio1\obj\Debug\net6.0\ref\Laboratorio1.dll
