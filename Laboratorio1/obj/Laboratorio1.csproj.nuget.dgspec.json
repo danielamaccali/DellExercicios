@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\daniela_maccali\\Documents\\AULAS\\C#\\Laboratorio1\\Laboratorio1.csproj": {}
+    "C:\\Users\\daniela_maccali\\Documents\\AULAS\\C#\\laboratorio1\\Laboratorio1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\daniela_maccali\\Documents\\AULAS\\C#\\Laboratorio1\\Laboratorio1.csproj": {
+    "C:\\Users\\daniela_maccali\\Documents\\AULAS\\C#\\laboratorio1\\Laboratorio1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\daniela_maccali\\Documents\\AULAS\\C#\\Laboratorio1\\Laboratorio1.csproj",
+        "projectUniqueName": "C:\\Users\\daniela_maccali\\Documents\\AULAS\\C#\\laboratorio1\\Laboratorio1.csproj",
         "projectName": "Laboratorio1",
-        "projectPath": "C:\\Users\\daniela_maccali\\Documents\\AULAS\\C#\\Laboratorio1\\Laboratorio1.csproj",
+        "projectPath": "C:\\Users\\daniela_maccali\\Documents\\AULAS\\C#\\laboratorio1\\Laboratorio1.csproj",
         "packagesPath": "C:\\Users\\daniela_maccali\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\daniela_maccali\\Documents\\AULAS\\C#\\Laboratorio1\\obj\\",
+        "outputPath": "C:\\Users\\daniela_maccali\\Documents\\AULAS\\C#\\laboratorio1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\daniela_maccali\\AppData\\Roaming\\NuGet\\NuGet.Config"
