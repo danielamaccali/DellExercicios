@@ -39,3 +39,17 @@ foreach(DateTime item in dt)
     Console.WriteLine("Índice = " + iDate  + " & Data = " + item.ToShortDateString());
     iDate++;
 }
+
+// Exercício 1:
+
+int[] arrayUm = new int[100];
+int[] arrayDois = new int[100];
+int numArray1 = 1;
+for(i=0; i<100; i++)
+{
+    arrayUm[i] = numArray1;
+    numArray1++;
+}
+
+arrayUm.ToList().ForEach(Console.WriteLine);
+
