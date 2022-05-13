@@ -57,3 +57,19 @@ Array.Copy(arrayUm, arrayDois, arrayUm.Length);
 
 Console.WriteLine("Array 2");
 arrayDois.ToList().ForEach(Console.WriteLine);
+
+// Exercício 2
+
+int[,] matriz = new int[5,5]{ {10, 20, 30, 40, 50}, {11, 22, 33, 44, 55}, {10, 20, 30, 40, 50}, {11, 22, 33, 44, 55}, {1, 2, 3, 4, 5}};
+
+int soma = 0; //soma das colunas
+
+for(i=0; i<matriz.Length; i++)
+{
+    for(var j=0; j<matriz.Length; j++)
+    {
+        soma =+ matriz[i, j];
+    }
+}
+
+Console.WriteLine($"soma = {soma}");
