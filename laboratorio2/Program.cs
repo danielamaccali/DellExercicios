@@ -53,3 +53,7 @@ for(i=0; i<100; i++)
 
 arrayUm.ToList().ForEach(Console.WriteLine);
 
+Array.Copy(arrayUm, arrayDois, arrayUm.Length);
+
+Console.WriteLine("Array 2");
+arrayDois.ToList().ForEach(Console.WriteLine);
