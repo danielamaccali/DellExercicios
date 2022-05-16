@@ -61,7 +61,17 @@ numerosReais.Add(22);
 numerosReais.Add(29);
 
 var media = numerosReais.Sum() / numerosReais.Count();
-
+int cont = 0;
+//Quantidade de elementos acima da média.
+foreach(var item in numerosReais)
+{
+    if(item > media)
+    {
+        cont++;
+    }
+}
+Console.WriteLine($"Quantidade de elementos acima da média: {cont}");
+//Lsita de números acima da média.
 foreach(var item in numerosReais)
 {
     if(item > media)
@@ -69,3 +79,4 @@ foreach(var item in numerosReais)
         Console.WriteLine($"Número {item} acima da média.");
     }
 }
+
