@@ -52,3 +52,20 @@ foreach(KeyValuePair<int, string> item in paises)
     Console.WriteLine($"Código {pais} = {codigo}");
 }
 
+Console.WriteLine("Exercício 2");
+List<int> numerosReais = new List<int>();
+numerosReais.Add(3);
+numerosReais.Add(10);
+numerosReais.Add(15);
+numerosReais.Add(22);
+numerosReais.Add(29);
+
+var media = numerosReais.Sum() / numerosReais.Count();
+
+foreach(var item in numerosReais)
+{
+    if(item > media)
+    {
+        Console.WriteLine($"Número {item} acima da média.");
+    }
+}
