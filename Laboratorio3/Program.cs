@@ -35,3 +35,20 @@ paises[44] = "Reino Unido";
 paises[33] = "França";
 paises[55] = "Brasil";
 Console.WriteLine("O código 55 é: {0}", paises[55]);
+foreach(KeyValuePair<int, string> item in paises)
+{
+    int codigo = item.Key;
+    string pais = item.Value;
+    Console.WriteLine("Código {0} = {1}", codigo, pais);
+}
+
+//Exercícios
+
+Console.WriteLine("Exercício 1");
+foreach(KeyValuePair<int, string> item in paises)
+{
+    int codigo = item.Key;
+    string pais = item.Value;
+    Console.WriteLine($"Código {pais} = {codigo}");
+}
+
