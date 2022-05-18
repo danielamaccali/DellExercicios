@@ -16,9 +16,9 @@ public class Termometro
     {
         temperatura += t;
     }
-    
+
     public void Diminuir(double t)
     {
-    temperatura -= t;
+        temperatura -= t;
     }
  }
