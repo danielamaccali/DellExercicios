@@ -1,4 +1,4 @@
-﻿static void Main(string[] args)
+﻿//static void Main(string[] args)
 
 {
     IEstadoBinario[] lista = new IEstadoBinario[2];
