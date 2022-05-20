@@ -25,7 +25,7 @@ Console.WriteLine(pessoa);
 
 // Exercício 1. Construa uma consulta que retorne as pessoas agrupadas em casadas e solteiras e também o número de pessoas casadas e solteiras
 
-Console.WriteLine("\n Exercício 1");
+Console.WriteLine("\n Exercício 1: pessoas agrupadas em casadas e solteiras e total por grupo. ");
 
 var linq3 = 
     from p in pessoas
@@ -44,24 +44,26 @@ foreach (var grupoStatus in linq3)
 }
 // Exercício 2. Construa uma consulta que retorne a pessoa mais velha.
 
-Console.WriteLine("Pessoa mais velha - utilizando linq: ");
-var linq4=
-    from p in pessoas
-    group p by p.DataNascimento into grupoNascimento
-    orderby grupoNascimento.Key
-    select grupoNascimento;
+Console.WriteLine("\nPessoa mais velha: ");
+var linq4= pessoas.MinBy(p => p.DataNascimento); // byDescending seria apropriado aqui?
+Console.WriteLine($"{linq4.Nome} - {linq4.DataNascimento.ToShortDateString()}");
 
-foreach(var nascimento in linq4)
-{
-    Console.WriteLine($"Pessoa mais velha: {nascimento.Last()}"); // falta filtrar para pegar uma pessoa só
-}
 
-Console.WriteLine("Pessoa mais velha - utilizando Lambda: ");
-var testeLambda = pessoas.Where(p => );
+// TESTES
+//var testeLambda = pessoas.OrderByDescending(p => p.DataNascimento >= new DateTime()).ToList();
+//var testeLambda = pessoas.Where(p => p.DataNascimento >= new DateTime());
+//foreach(var nasc in testeLambda)
+/* {
+    Console.WriteLine($"Nome: {nasc.Nome} - {nasc.DataNascimento}");
+} */
+
 // Exercício 3. Construa uma consulta que retorne a pessoa solteira mais nova.
+var linq5 = pessoas.Where(p => p.Casada == false).MaxBy(p =>p.DataNascimento);
+Console.WriteLine($"\nPessoas solteira mais nova: {linq5.Nome} - {linq5.DataNascimento.ToShortDateString()}");
+
 // var linq2 = pessoas.Where(p => p.Casada && p.DataNascimento >= new DateTime(1980, 1, 1));
 
-/*
+/* TESTES
 var linq5 = pessoas.Where(p => p.Casada = false && p.DataNascimento >= new DateTime());
 foreach(var item in pessoas)
 {
