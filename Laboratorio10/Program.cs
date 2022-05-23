@@ -48,7 +48,9 @@ Console.WriteLine("\nPessoa mais velha: ");
 var linq4= pessoas.MinBy(p => p.DataNascimento); // byDescending seria apropriado aqui?
 Console.WriteLine($"{linq4.Nome} - {linq4.DataNascimento.ToShortDateString()}");
 
+
 // Exercício 3. Construa uma consulta que retorne a pessoa solteira mais nova.
+
 var linq5 = pessoas.Where(p => p.Casada == false).MaxBy(p =>p.DataNascimento);
 Console.WriteLine($"\nPessoas solteira mais nova: {linq5.Nome} - {linq5.DataNascimento.ToShortDateString()}");
 
