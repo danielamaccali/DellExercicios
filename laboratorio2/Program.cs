@@ -64,9 +64,9 @@ int[,] matriz = new int[5,5]{ {10, 20, 30, 40, 50}, {11, 22, 33, 44, 55}, {10, 2
 
 int soma = 0; //soma das colunas
 
-for(i=0; i<matriz.Length; i++)
+for(i=0; i<matriz.Length; i++) //linha
 {
-    for(var j=0; j<matriz.Length; j++)
+    for(var j=0; j<matriz.Length; j++) //coluna
     {
         soma =+ matriz[i, j];
     }
