@@ -48,25 +48,12 @@ Console.WriteLine("\nPessoa mais velha: ");
 var linq4= pessoas.MinBy(p => p.DataNascimento); // byDescending seria apropriado aqui?
 Console.WriteLine($"{linq4.Nome} - {linq4.DataNascimento.ToShortDateString()}");
 
-
-// TESTES
-//var testeLambda = pessoas.OrderByDescending(p => p.DataNascimento >= new DateTime()).ToList();
-//var testeLambda = pessoas.Where(p => p.DataNascimento >= new DateTime());
-//foreach(var nasc in testeLambda)
-/* {
-    Console.WriteLine($"Nome: {nasc.Nome} - {nasc.DataNascimento}");
-} */
-
 // Exercício 3. Construa uma consulta que retorne a pessoa solteira mais nova.
 var linq5 = pessoas.Where(p => p.Casada == false).MaxBy(p =>p.DataNascimento);
 Console.WriteLine($"\nPessoas solteira mais nova: {linq5.Nome} - {linq5.DataNascimento.ToShortDateString()}");
 
-// var linq2 = pessoas.Where(p => p.Casada && p.DataNascimento >= new DateTime(1980, 1, 1));
+var linq6 = pessoas.Where(p => p.Casada == false)
+            .OrderByDescending(p => p.DataNascimento)
+            .FirstOrDefault();
 
-/* TESTES
-var linq5 = pessoas.Where(p => p.Casada = false && p.DataNascimento >= new DateTime());
-foreach(var item in pessoas)
-{
-    Console.WriteLine($"Solteiras - ordenada por mais jovem: {item.Nome}, {item.DataNascimento}");
-}
-*/
+Console.WriteLine($"Escrito de outra forma - pessoa solteira mais nova: {linq6.Nome} - {linq6.DataNascimento.ToShortDateString()}");
