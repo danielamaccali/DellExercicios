@@ -1,7 +1,7 @@
 public class Autor
 {
     public int id { get; set; }
-    string primeiroNome { get; set; }
-    string ultimoNome { get; set; }
+    public string primeiroNome { get; set; }
+    public string ultimoNome { get; set; }
 
 }
