@@ -15,12 +15,12 @@ public class AutorRepository : IAutorRepository
 
     public async Task<IEnumerable<Autor>> ConsultarTodosAsync()
     {
-        return await _contexto.Autor.ToListAsync();
+        return await _contexto.autor.ToListAsync();
     }
 
     public async Task<Autor> ConsultarAsync(int id) //seguindo exemplo do professor (não funcionava pois faltou colocar Public)
     {
-        var autor = await _contexto.Autor.FindAsync(id);
+        var autor = await _contexto.autor.FindAsync(id);
         return autor;
 
     }
