@@ -4,7 +4,7 @@ namespace Laboratorio11.Models; //verificar se é necessário
 
 public class BDLivrosContext : DbContext
 {
-    //parâmetros
+    //propriedade
     public DbSet<Autor> Autor { get; set; }
 
     //Construtores

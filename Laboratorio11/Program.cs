@@ -8,11 +8,12 @@ var builder = WebApplication.CreateBuilder(args);
 //Inseri conforme exemplo
 builder.Services.AddDbContext<BDLivrosContext>(options =>
     {
-        options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultaConnection"));
+        options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"));
         options.EnableSensitiveDataLogging().LogTo(Console.WriteLine);
     }  
 );
 
+builder.Services.AddScoped<IAutorRepository, AutorRepository>(); // configura injeção de dependência
 
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle

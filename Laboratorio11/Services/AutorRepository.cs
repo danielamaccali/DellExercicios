@@ -2,7 +2,7 @@
 using Laboratorio11.Models;
 using Microsoft.EntityFrameworkCore;
 
-public class AutorRepository : IAutorRepositoryEF
+public class AutorRepository : IAutorRepository
 {
     //implementação obrigatória da Interface IAutorRepository
 
@@ -18,15 +18,15 @@ public class AutorRepository : IAutorRepositoryEF
         return await _contexto.Autor.ToListAsync();
     }
 
-    async Task<Autor> ConsultarAsync(int id) //seguindo exemplo do professor
+    public async Task<Autor> ConsultarAsync(int id) //seguindo exemplo do professor (não funcionava pois faltou colocar Public)
     {
         var autor = await _contexto.Autor.FindAsync(id);
         return autor;
 
     }
 
-    Task<Autor> IAutorRepositoryEF.ConsultarAsync(int id) // auto gerado, pois estava acusando que não estava implementando - verificar
+    /*Task<Autor> IAutorRepositoryEF.ConsultarAsync(int id) // auto gerado, pois estava acusando que não estava implementando - verificar
     {
         throw new NotImplementedException();
-    }
+    } */
 }

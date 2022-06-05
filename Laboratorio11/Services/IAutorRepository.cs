@@ -1,4 +1,4 @@
-public interface IAutorRepositoryEF
+public interface IAutorRepository
 {
 
     // Interface definindo Task
