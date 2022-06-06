@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "vlDnH/ClXs9LZjCHT6iexCxhv/Y96QLoaMRlUFcD9KaFBGhAyjfF5vpTguDLyZ2JXumaM6kJnl/QnHjXN09LkQ==",
+  "dgSpecHash": "ekiLx1LcDyPOK1AnfZAdWdb2r0yTdlWmzsiVWhi+hfgtVDYGVv4sIIA3PYw6E0VL6+uqduMbC/3jFemGToxlxw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\daniela_maccali\\Documents\\AULAS\\ASPNET\\demomvccep\\DemoMVCCep.csproj",
+  "projectFilePath": "c:\\Users\\daniela_maccali\\Documents\\AULAS\\C#\\ASPNET\\DemoMVCCep\\DemoMVCCep.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

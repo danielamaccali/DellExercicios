@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\daniela_maccali\\Documents\\AULAS\\ASPNET\\demomvccep\\DemoMVCCep.csproj": {}
+    "c:\\Users\\daniela_maccali\\Documents\\AULAS\\C#\\ASPNET\\DemoMVCCep\\DemoMVCCep.csproj": {}
   },
   "projects": {
-    "C:\\Users\\daniela_maccali\\Documents\\AULAS\\ASPNET\\demomvccep\\DemoMVCCep.csproj": {
+    "c:\\Users\\daniela_maccali\\Documents\\AULAS\\C#\\ASPNET\\DemoMVCCep\\DemoMVCCep.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\daniela_maccali\\Documents\\AULAS\\ASPNET\\demomvccep\\DemoMVCCep.csproj",
+        "projectUniqueName": "c:\\Users\\daniela_maccali\\Documents\\AULAS\\C#\\ASPNET\\DemoMVCCep\\DemoMVCCep.csproj",
         "projectName": "DemoMVCCep",
-        "projectPath": "C:\\Users\\daniela_maccali\\Documents\\AULAS\\ASPNET\\demomvccep\\DemoMVCCep.csproj",
+        "projectPath": "c:\\Users\\daniela_maccali\\Documents\\AULAS\\C#\\ASPNET\\DemoMVCCep\\DemoMVCCep.csproj",
         "packagesPath": "C:\\Users\\daniela_maccali\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\daniela_maccali\\Documents\\AULAS\\ASPNET\\demomvccep\\obj\\",
+        "outputPath": "c:\\Users\\daniela_maccali\\Documents\\AULAS\\C#\\ASPNET\\DemoMVCCep\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\daniela_maccali\\AppData\\Roaming\\NuGet\\NuGet.Config"

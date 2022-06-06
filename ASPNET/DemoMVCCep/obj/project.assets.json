@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\daniela_maccali\\Documents\\AULAS\\ASPNET\\DemoMVCCep\\DemoMVCCep.csproj",
+      "projectUniqueName": "c:\\Users\\daniela_maccali\\Documents\\AULAS\\C#\\ASPNET\\DemoMVCCep\\DemoMVCCep.csproj",
       "projectName": "DemoMVCCep",
-      "projectPath": "C:\\Users\\daniela_maccali\\Documents\\AULAS\\ASPNET\\DemoMVCCep\\DemoMVCCep.csproj",
+      "projectPath": "c:\\Users\\daniela_maccali\\Documents\\AULAS\\C#\\ASPNET\\DemoMVCCep\\DemoMVCCep.csproj",
       "packagesPath": "C:\\Users\\daniela_maccali\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\daniela_maccali\\Documents\\AULAS\\ASPNET\\DemoMVCCep\\obj\\",
+      "outputPath": "c:\\Users\\daniela_maccali\\Documents\\AULAS\\C#\\ASPNET\\DemoMVCCep\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\daniela_maccali\\AppData\\Roaming\\NuGet\\NuGet.Config"
