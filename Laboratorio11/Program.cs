@@ -14,6 +14,8 @@ builder.Services.AddDbContext<BDLivrosContext>(options =>
 );
 
 builder.Services.AddScoped<IAutorRepository, AutorRepository>(); // configura injeção de dependência
+builder.Services.AddScoped<ILivroRepository, LivroRepository>();
+builder.Services.AddScoped<IEmprestimoRepository, EmprestimoRepository>();
 
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle

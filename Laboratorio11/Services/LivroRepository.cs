@@ -1,6 +1,7 @@
-using Laboratorio11.Services;
+
 using Laboratorio11.Models;
 using Microsoft.EntityFrameworkCore;
+
 
 public class LivroRepository : ILivroRepository
 {
@@ -22,6 +23,5 @@ public class LivroRepository : ILivroRepository
         var livro = await _contexto.livro.FindAsync(id);
         return livro;
     }
-
 
 }

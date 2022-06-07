@@ -30,5 +30,5 @@ public class BDLivrosContext : DbContext
 
         
     }
-
+    // verificar no BD se a tabela Autor seguiu modelo acima e o que aconteceu com as outras tabelas que não foram definidas aqui
 }
